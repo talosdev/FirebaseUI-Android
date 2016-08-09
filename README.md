@@ -28,13 +28,13 @@ libraries.
 ```
 dependencies {
     // Single target that includes all FirebaseUI libraries
-    compile 'com.firebaseui:firebase-ui:0.4.3'
+    compile 'com.firebaseui:firebase-ui:0.4.4'
 
     // FirebaseUI Database only
-    compile 'com.firebaseui:firebase-ui-database:0.4.3'
+    compile 'com.firebaseui:firebase-ui-database:0.4.4'
 
     // FirebaseUI Auth only
-    compile 'com.firebaseui:firebase-ui-auth:0.4.3'
+    compile 'com.firebaseui:firebase-ui-auth:0.4.4'
 }
 ```
 
@@ -61,6 +61,7 @@ For convenience, here are some examples:
 
 | FirebaseUI Version | Firebase/Play Services Version |
 |--------------------|--------------------------------|
+| 0.4.4              | 9.4.0                          |
 | 0.4.3              | 9.2.1                          |
 | 0.4.2              | 9.2.0                          |
 | 0.4.1              | 9.0.2                          |
@@ -96,7 +97,7 @@ To deploy FirebaseUI to Bintray
   1. Go to the Bintray dashboard and click 'Publish'.
     1. In Bintray click the 'Maven Central' tab and publish the release.
 
-### Tag a release on Github
+### Tag a release on GitHub
 
 * Ensure that all your changes are on master and that your local build is on master
 * Ensure that the correct version number is in `common/constants.gradle`
@@ -130,4 +131,4 @@ accept your pull requests.
 1. Ensure that your code adheres to the existing style of the library to which
    you are contributing.
 1. Ensure that your code has an appropriate set of unit tests which all pass.
-1. Submit a pull request and cc @puf or @mcdonamp
+1. Submit a pull request and cc @puf or @samtstern
