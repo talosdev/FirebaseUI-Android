@@ -65,13 +65,13 @@ public class ChatActivity extends AppCompatActivity {
         setContentView(R.layout.activity_chat);
 
         mAuth = FirebaseAuth.getInstance();
-        mAuth.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                updateUI();
-            }
-        });
-
+//        mAuth.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
+//            @Override
+//            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+//                updateUI();
+//            }
+//        });
+        
         mSendButton = (Button) findViewById(R.id.sendButton);
         mMessageEdit = (EditText) findViewById(R.id.messageEdit);
 
@@ -125,7 +125,7 @@ public class ChatActivity extends AppCompatActivity {
     public void onStop() {
         super.onStop();
         if (mRecyclerViewAdapter != null) {
-            mRecyclerViewAdapter.cleanup();
+//            mRecyclerViewAdapter.cleanup();
         }
     }
 

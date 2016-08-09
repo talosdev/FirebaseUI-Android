@@ -6,3 +6,5 @@ project.ext.group = "com.firebaseui"
 project.ext.version = '0.4.4'
 project.ext.pomdesc = 'Firebase UI Android'
 project.ext.buildtools = '24.0.1'
+
+project.ext.leakcanary_version= '1.4-beta2'
